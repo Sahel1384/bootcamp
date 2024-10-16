@@ -1,0 +1,49 @@
+@media (max-width: 1030px) {
+  .sidebar {
+    width: 0%;
+    overflow: hidden;
+  }
+  .main {
+    width: 100%;
+  }
+  .main-navbar #show_sidebar {
+    display: none;
+  }
+  .main-navbar #offcanvas {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cards-1 {
+    width: 100%;
+  }
+  .main-navbar #search {
+    display: none;
+  }
+  .main-img .fa-search {
+    display: block;
+  }
+  .main-table .table1 th {
+    font-size: 10px;
+    padding: 5px 0px 10px 2px;
+    background-color: #444453;
+  }
+  .main-table .table1 td {
+    font-size: 10px;
+    padding: 10px 0px 10px 2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-top .main-cate {
+    background-color: #2e2e48;
+    padding: 5px 5px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,287 @@
+@media (max-width: 1030px) {
+  .topbar-left #search {
+    width: 500px;
+  }
+  .category h5 {
+    margin-left: 80px;
+  }
+  .product-card {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-end {
+    gap: 330px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .category h5 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  .footer-body {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+}
+
+@media (max-width: 882px) {
+  .product-head {
+    gap: 15px;
+  }
+  .product-ul {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 870px) {
+  .hero-left {
+    width: 400px;
+  }
+  .hero-right #img1 {
+    width: 230px;
+  }
+  .hero-right #img2 {
+    width: 230px;
+  }
+  #card-img-sub h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #card-img-sub p {
+    font-size: 12px;
+  }
+  .category h5 {
+    margin-left: 100px;
+  }
+  .category-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .product-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-head h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .product-head p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .product-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product-end {
+    gap: 230px;
+    padding: 20px;
+  }
+  .footer-body-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 843px) {
+  .topbar-left #search {
+    width: 400px;
+  }
+  .product-end {
+    gap: 120px;
+    padding: 20px;
+  }
+  .footer-body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+}
+
+@media (max-width: 750px) {
+  .topbar-left #search {
+    width: 300px;
+  }
+  .category h5 {
+    margin-left: 20px;
+  }
+  .deal {
+    gap: 30px;
+  }
+  .deal img {
+    width: 100%;
+    height: 230px;
+  }
+  .footer-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .category-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .best button {
+    font-size: 13px;
+    padding: 4px 20px;
+    margin: 6px 0 5px 18px;
+  }
+  .footer-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+  .hero-left {
+    width: 100%;
+  }
+  .hero-right #img1 {
+    width: 100%;
+  }
+  .hero-right #img2 {
+    width: 100%;
+  }
+  .product-end {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 150px;
+  }
+  .product-end h4 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .product-end p {
+    font-size: 13px;
+    width: 270px;
+    text-align: center;
+  }
+  .product-end button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 60px;
+  }
+
+  .product-end img {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .topbar-left #search {
+    display: none;
+  }
+  .topbar-right #searchIcon {
+    display: block;
+    width: 14px;
+    margin-top: 7px;
+  }
+  .deal img {
+    width: 100%;
+    height: 180px;
+  }
+  .deal {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .deal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .deal p {
+    text-align: center;
+  }
+  .deal h5 {
+    text-align: center;
+  }
+  .deal span {
+    text-align: center;
+  }
+  .deal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer-body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+  }
+  .footer-body-2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .footer-body-3 p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 427px) {
+  #searchIcon1 {
+    display: none;
+  }
+  .badge1 {
+    display: none;
+  }
+  .badge2 {
+    display: none;
+  }
+}
